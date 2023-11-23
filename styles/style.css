@@ -87,8 +87,11 @@ header div {
 }
 
 #sidebar {
+  display: flex;
   background-color: #10141B;
   background-size: 60px;
+  grid-row: auto;
+  justify-content: space-around;
 }
 
 #sidebar h2 {
@@ -133,6 +136,11 @@ footer #Instagram:hover {
 
 footer #Twitter:hover {
   color: #8B81EC;
+}
+
+main h2 #button {
+  background-color: #433C87;
+  background-size: 74px;
 }
 
 /*# sourceMappingURL=style.css.map */

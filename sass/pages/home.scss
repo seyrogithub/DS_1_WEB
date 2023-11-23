@@ -41,8 +41,11 @@ header div {
 }
 
 #sidebar {
+    display: flex;
     background-color: #10141B;
     background-size: 60px;
+    grid-row: auto;
+    justify-content: space-around;
 }
 
 #sidebar h2 {
@@ -59,6 +62,8 @@ footer {
     background-color: #10141B;
     background-size: 229px;
 }
+
+
 
 
 
