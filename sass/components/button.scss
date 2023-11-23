@@ -1,3 +1,12 @@
 #sidebar h2:hover{
     text-decoration: underline;
 }
+
+main #button {
+    transition-duration: 0.5s;
+    transition-property: font-size;
+}
+
+main #button:hover {
+    font-size: 215%;
+}

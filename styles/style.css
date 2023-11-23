@@ -5,6 +5,7 @@
   font-size: 40px;
   color: #fff;
   font-weight: 400;
+  text-align: center;
 }
 
 main h3 {
@@ -90,8 +91,21 @@ header div {
   align-items: center;
 }
 
+main #left {
+  margin: 148px;
+}
+
 #sidebar h2:hover {
   text-decoration: underline;
+}
+
+main #button {
+  transition-duration: 0.5s;
+  transition-property: font-size;
+}
+
+main #button:hover {
+  font-size: 215%;
 }
 
 /*# sourceMappingURL=style.css.map */
